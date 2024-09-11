@@ -1,0 +1,7 @@
+﻿%Resolver el sistema de ecuaciones
+%Crear la matriz
+a=[52,30,18;20,50,30;25,20,55]
+%Crear el vector b
+b=[4800;5810;5690]
+x=inv(a)*b
+x1=a\b
